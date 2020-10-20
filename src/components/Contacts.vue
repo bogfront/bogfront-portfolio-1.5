@@ -27,6 +27,10 @@ export default {
 </script>
 
 <style scoped>
+ul {
+  list-style: none;
+}
+
     .contacts-link {
         display: inline-block;
         line-height: 50px;

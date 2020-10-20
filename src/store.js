@@ -134,6 +134,72 @@ export default new Vuex.Store({
         ],
         time: {
           from: 'Август 2016',
+          to: 'Октябрь 2018'
+        }
+      },
+      {
+        logo: '/img/jobs/skillfactory.svg',
+        title: 'SkillFactory',
+        role: 'Ведущий курса по JavaScript, Vue и Node.js',
+        href: 'https://skillfactory.ru/javascript',
+        description: 'Онлайно платформа обучения программированию и не только.',
+        stack: 'vue & vuex, javascript, node.js',
+        tasks: [
+          'Разработаны курсы по JavaScript, Vue, Node.js',
+          'Записаны уроки с разборами и примерами'
+        ],
+        time: {
+          from: 'Ноябрь 2019',
+          to: 'Февраль 2020'
+        }
+      },
+      {
+        logo: '/img/jobs/radario.svg',
+        title: 'Радарио',
+        role: 'Senior Frontend',
+        href: 'https://business.radario.ru/',
+        description: 'Платформа продажи билетов в театр и на концерты',
+        stack: 'vue & vuex, javascript, canvas',
+        tasks: [
+          'Разработана библиотека рендера схемы для многотысячных стадионов с применением canvas',
+          'Улучшены компоненты личного кабинета',
+          'Написана аутентификация на Vue',
+          'Поддержка legacy-кода'
+        ],
+        time: {
+          from: 'Октябрь 2018',
+          to: 'Апрель 2020'
+        }
+      },
+      {
+        logo: '/img/jobs/rabota.svg',
+        title: 'Работа.ру',
+        role: 'Senior Frontend',
+        href: 'https://rabota.ru/',
+        description: 'Быстрый поиск работы и подбор персонала',
+        stack: 'nuxt & vuex, javascript, typescript',
+        tasks: [
+          'Разработка личного кабинета работодателей',
+          'Разработка UI компонент сервиса'
+        ],
+        time: {
+          from: 'Апрель 2020',
+          to: 'Настоящее время'
+        }
+      },
+      {
+        logo: '/img/jobs/codefront.svg',
+        title: 'CodeFront',
+        role: 'Создатель курсов',
+        href: 'https://juniorjs.ru/',
+        description: 'Веселый и наполненный практикой курс изучения JavaScript',
+        stack: 'javascript, преподавание, монтаж',
+        tasks: [
+          'Создан курс изучения JavaScript с нуля',
+          'YouTube канал о фронтенд разработке'
+        ],
+        time: {
+          from: 'Март 2020',
           to: 'Настоящее время'
         }
       }
@@ -199,12 +265,12 @@ export default new Vuex.Store({
 
     skills: [
       {
-        title: 'Javascript & ES6',
+        title: 'Javascript & TypeScript',
         images: ['/img/skills/es6.png'],
         description: 'Подкрепляю знания ежедневным чтением специализированной литературы (сейчас серия You don\'t know JS). Ежедневно решаю одну-две задачи на ресурсе codewars. Пишу онлайн курс по ES6.'
       },
       {
-        title: 'Vue & Vuex',
+        title: 'Nuxt & Vue & Vuex',
         images: ['/img/skills/vue.png'],
         description: 'Использую в компании и для своих проектов. Вынесен общий функционал для корзины, оформления заказа и полей форм. Разделение функционала на компоненты. Реализованы модальные окна, авторизация, корзина, оформление заказа, сравнение товаров. Везде придумано решение для SEO, так как разработка в e-commerce. Для разработки персональных идей также использую данный стек, так как он хорошо документирован, появляется сильное сообщество, начал первые шаги с ним еще с первой версии. Подписан на основных разработчиков фреймворка, благодаря чему слежу за всеми нововведениями и хуками.'
       },
@@ -219,19 +285,14 @@ export default new Vuex.Store({
         description: 'Использую данный стек последние три года. Удобство написания стилей со своими нюансами в методологии BEM. В персональных проектах пишу стили непосредственно в компонентах.'
       },
       {
-        title: 'Gulp & Webpack & yarn & ESLint',
-        images: ['/img/skills/gulp.png', '/img/skills/webpack.jpg', '/img/skills/yarn.png', '/img/skills/eslint.svg'],
+        title: 'Webpack & yarn & ESLint',
+        images: ['/img/skills/webpack.jpg', '/img/skills/yarn.png', '/img/skills/eslint.svg'],
         description: 'Самостоятельно настраиваю менеджер задач gulp для сборки стилей, минификации изображений, распределения ассетов, запуска webpack. Умею настраивать webpack для сборки Vue & Vuex, ES6 в режимах dev и production. Настраиваю ESLint для принятых конвеншенов. Почему yarn - потому что удобнее устанавливать пакеты. Лучшее отображение в терминале.'
       },
       {
-        title: 'Linux & WebStorm',
-        images: ['/img/skills/ubuntu.png', '/img/skills/webshtorm.png'],
-        description: 'С Linux бок о бок на протяжении последних пяти лет, а IDE от Jetbrains использую по старой доброй памяти и уже привык к ней + они достаточно хорошо развиваются в лучшую сторону.'
-      },
-      {
-        title: 'Photoshop & Avocode',
-        images: ['/img/skills/photoshop.png', '/img/skills/avocode.png'],
-        description: 'Раньше резал макеты в Photoshop. Год назад узнал об идеальном инструменте для работы с макетами Avocode. Ускоряет верстку примерно в три раза, а главное - работает под Linux. XD, PSD, Sketch.'
+        title: 'WebStorm',
+        images: ['/img/skills/webshtorm.png'],
+        description: 'Предпочитаю IDE от Jetbrains, которая постоянно улучшается и используется мной свыше 5 лет. Мы с ней прошли огонь и воду)'
       },
       {
         title: 'git',
@@ -253,8 +314,8 @@ export default new Vuex.Store({
       },
       {
         icon: 'fab fa-github-alt',
-        link: 'https://github.com/superboggg',
-        title: 'github.com/superboggg'
+        link: 'https://github.com/bogfront',
+        title: 'github.com/bogfront'
       },
       {
         icon: 'fab fa-instagram',

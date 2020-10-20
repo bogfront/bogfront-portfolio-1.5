@@ -46,6 +46,9 @@ export default {
         top: 0;
         position: fixed;
         width: 210px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
         box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .16);
         background: #fafafa;
         z-index: 5;

@@ -12,8 +12,8 @@
         <section class="section cover" id="intro">
             <span class="overlay"></span>
             <div class="container">
-                <h2>Я <span class="teal">работаю над проектами,</span>
-                    <br/>которые <span class="underline">создают будущее</span>.
+                <h2>Я здесь, чтобы <span class="teal">помочь</span>
+                    <br/>стать <span class="underline">фронтенд разработчиком</span>.
                 </h2>
             </div>
         </section>
@@ -35,11 +35,9 @@ import Contacts from '@/components/Contacts'
 import Resume from '@/components/Resume'
 
 export default {
-  data () {
-    return ({
-      isOpen: false
-    })
-  },
+  data: () => ({
+    isOpen: false
+  }),
 
   components: {
     Resume,
